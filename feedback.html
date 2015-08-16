@@ -1,0 +1,66 @@
+<!-- LUO BAI   215238769-->
+
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<meta charset="UTF-8">
+	<title>Restaurant Picker</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="jquery.mobile.structure-1.0.1.css" />
+	<link rel="apple-touch-icon" href="images/launch_icon_57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="images/launch_icon_72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="images/launch_icon_114.png" />
+	<link rel="stylesheet" href="jquery.mobile-1.0.1.css" />
+	<link rel="stylesheet" href="custom.css" />
+	<script src="js/jquery-1.7.1.min.js"></script>
+	<script src="js/jquery.mobile-1.0.1.min.js"></script>
+</head> 
+<body> 
+<div id="restau" data-role="page" data-add-back-btn="true">
+	<!-- Input head of the page -->
+	<div data-role="header"> 
+		<h1> Restaurant Picker</h1>
+	</div> 
+    
+    <!-- Input content of the page -->
+    <div class="content" data-role="content">
+    <h1> <strong>Feedback </strong></h1>
+    <br></br>
+    <!-- Connect to database -->
+    <form id="feedback" action="formprocessor.php" method="post">
+    <div data-role="fieldcontain">
+    <!-- Input name text box -->
+    <label for="name">Customer Name:</label>
+    <br></br>
+    <input type="text" name="name" id="" />
+    <br></br>
+    <br></br>
+    <!-- Input customer information text box -->
+    <label for="information">Customer Information:</label>
+    <br></br>
+    <input type="text" name="info" id="" />
+    <br></br>
+    <br></br>
+    <!-- Input feedback text box -->
+    <label for="feedback">Feedback:</label>
+    <br></br>
+    <input type="text" name="feedback" id="" />
+    
+    <br></br>
+    
+    <!-- A button to submit -->
+    <a href="XXXXXXXX" data-role="button" id="sumit">Submit</a>
+    </div>
+    </form>
+    
+    
+    
+    
+    
+    
+    
+    
+</div><!-- /page -->
+</body>
+</html>
